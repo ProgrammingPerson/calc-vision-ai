@@ -2,6 +2,9 @@
 import torch
 import torch.nn as nn
 
+#testing
+print("hi")
+
 # device config
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
